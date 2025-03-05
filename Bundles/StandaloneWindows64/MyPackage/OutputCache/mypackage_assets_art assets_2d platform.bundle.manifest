@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3582564199
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5cc95071a0a7133c47eab7d4dc921241
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4b83cdbc84234a083a19a9f61942a4dd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec8da9418a6bf493e93ef4c7b7575847, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art Assets/2D Platform/Platformer Pack.psb
+Dependencies:
+- D:/unity/project/For Practice/Bundles/StandaloneWindows64/MyPackage/OutputCache/mypackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

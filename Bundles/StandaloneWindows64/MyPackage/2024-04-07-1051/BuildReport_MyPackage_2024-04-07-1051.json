@@ -1,0 +1,92 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2022.3.3f1c1",
+        "BuildDate": "2024/4/7 17:35:04",
+        "BuildSeconds": 20,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "MyPackage",
+        "BuildPackageVersion": "2024-04-07-1051",
+        "UniqueBundleName": true,
+        "EnableAddressable": false,
+        "LocationToLower": true,
+        "IncludeAssetGUID": true,
+        "IgnoreDefaultType": false,
+        "AutoCollectShaders": false,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 3,
+        "MainAssetTotalCount": 1,
+        "AllBundleTotalCount": 3,
+        "AllBundleTotalSize": 7911315,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Art Assets/2D Platform/Platformer Pack.psb",
+            "AssetGUID": "fcec4742ff2fcad4289248b1c445df7b",
+            "AssetTags": [],
+            "MainBundleName": "mypackage_assets_art assets_2d platform.bundle",
+            "MainBundleSize": 7887053,
+            "DependAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "mypackage_assets_art assets_2d platform.bundle",
+            "FileName": "b17444e5811d0938b7597f96601b6095.bundle",
+            "FileHash": "b17444e5811d0938b7597f96601b6095",
+            "FileCRC": "f0138209",
+            "FileSize": 7887053,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "mypackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "mypackage_share_packages_com_unity_render-pipelines_universal_shaders_2d.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Art Assets/2D Platform/Platformer Pack.psb"
+            ]
+        },
+        {
+            "BundleName": "mypackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "1c66ff9a74c2919f54bed9b874a1123d.bundle",
+            "FileHash": "1c66ff9a74c2919f54bed9b874a1123d",
+            "FileCRC": "9e7fbde7",
+            "FileSize": 2468,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "mypackage_share_packages_com_unity_render-pipelines_universal_shaders_2d.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat"
+            ]
+        },
+        {
+            "BundleName": "mypackage_share_packages_com_unity_render-pipelines_universal_shaders_2d.bundle",
+            "FileName": "bb986c3b21da3bba729d5f0b6bcb949a.bundle",
+            "FileHash": "bb986c3b21da3bba729d5f0b6bcb949a",
+            "FileCRC": "1199ca87",
+            "FileSize": 21794,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1660033254
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95d946204519050bdc734fbf096b0aa6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+Dependencies:
+- D:/unity/project/For Practice/Bundles/StandaloneWindows64/MyPackage/OutputCache/mypackage_share_packages_com_unity_render-pipelines_universal_shaders_2d.bundle

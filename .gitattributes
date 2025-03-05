@@ -1,0 +1,7 @@
+*.psb filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.8.7/.Runtime/** filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/** filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,56 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": false,
+    "LocationToLower": true,
+    "IncludeAssetGUID": true,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "MyPackage",
+    "PackageVersion": "2024-04-07-1051",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Art Assets/2D Platform/Platformer Pack.psb",
+            "AssetGUID": "fcec4742ff2fcad4289248b1c445df7b",
+            "AssetTags": [],
+            "BundleID": 0
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "mypackage_assets_art assets_2d platform.bundle",
+            "UnityCRC": 3582564199,
+            "FileHash": "b17444e5811d0938b7597f96601b6095",
+            "FileCRC": "f0138209",
+            "FileSize": 7887053,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2
+            ]
+        },
+        {
+            "BundleName": "mypackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 1660033254,
+            "FileHash": "1c66ff9a74c2919f54bed9b874a1123d",
+            "FileCRC": "9e7fbde7",
+            "FileSize": 2468,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                2
+            ]
+        },
+        {
+            "BundleName": "mypackage_share_packages_com_unity_render-pipelines_universal_shaders_2d.bundle",
+            "UnityCRC": 4006090027,
+            "FileHash": "bb986c3b21da3bba729d5f0b6bcb949a",
+            "FileCRC": "1199ca87",
+            "FileSize": 21794,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
