@@ -1,10 +1,11 @@
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ReverseCard : MonoBehaviour
 {
-    private enum Direction
+    public enum Direction
     {
         Front, Back
     }
@@ -13,25 +14,25 @@ public class ReverseCard : MonoBehaviour
     public GameObject backCard;
     public float flapTime;
     private readonly Vector3 _flapRotation = new Vector3(0, 90f, 0);
-    private Direction _direction = Direction.Front;
+    [FormerlySerializedAs("_direction")] public Direction direction = Direction.Front;
 
     private void OnEnable()
     {
-        backCard.transform.localRotation = Quaternion.Euler(_flapRotation);
+        // backCard.transform.localRotation = Quaternion.Euler(_flapRotation);
     }
 
     public void Reverse()
     {
-        if (_direction == Direction.Front)
+        if (direction == Direction.Front)
         {
-            _direction = Direction.Back;
+            direction = Direction.Back;
             StartCoroutine(ToBack());
             return;
         }
 
-        if (_direction == Direction.Back)
+        if (direction == Direction.Back)
         {
-            _direction = Direction.Front;
+            direction = Direction.Front;
             StartCoroutine(ToFront());
             return;
         }

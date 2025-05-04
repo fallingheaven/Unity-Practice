@@ -10,6 +10,7 @@ Shader "Practice/StencilBufferStudy"
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
+        ZWrite On
 
         // 这个东西相当于是记录了Stencil缓冲区的读写条件
         // 读取这个shader的条件是和它的Ref一致

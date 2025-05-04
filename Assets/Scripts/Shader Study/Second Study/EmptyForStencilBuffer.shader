@@ -14,7 +14,7 @@ Shader "Practice/EmptyForStencilBuffer"
         {
             Blend Zero One
             // 取消z缓冲可以防止在其后的物体被取消绘制
-            ZWrite Off
+            ZWrite On
             
             Stencil{
                 Ref [_StencilRef]

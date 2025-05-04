@@ -3,6 +3,7 @@
     "com.code-philosophy.luban": "https://github.com/focus-creative-games/luban_unity.git",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.github.siccity.xnode": "https://github.com/siccity/xNode.git",
+    "com.itisnajim.socketiounity": "https://github.com/itisnajim/SocketIOUnity.git",
     "com.nobug.nbc.action_editor": "https://github.com/NoBugCn/ActionEditor.git",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.feature.2d": "2.0.0",

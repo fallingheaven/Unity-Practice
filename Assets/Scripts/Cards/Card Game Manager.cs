@@ -52,7 +52,7 @@ public class CardGameManager : MonoBehaviour
         b.transform.position = computerComparePosition + new Vector3(Screen.width / 2f, Screen.height / 2f, 0);
         
         a.GetComponent<ReverseCard>().Reverse();
-        b.GetComponent<ReverseCard>().Reverse();
+        // b.GetComponent<ReverseCard>().Reverse();
         
         // b.transform.DOLocalMove(computerComparePosition, moveTime);
         // a.transform.position = playerComparePosition;

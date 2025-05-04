@@ -21,6 +21,15 @@
       "dependencies": {},
       "hash": "d6effd70f5574369e3415c423ef3e621ea309564"
     },
+    "com.itisnajim.socketiounity": {
+      "version": "https://github.com/itisnajim/SocketIOUnity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "c9e06b15391449ad42fd9b0f39fea48054751bcd"
+    },
     "com.nobug.nbc.action_editor": {
       "version": "https://github.com/NoBugCn/ActionEditor.git",
       "depth": 0,

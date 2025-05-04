@@ -31,9 +31,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlurSize: 0
+    - _BlurSize: 0.016
     - _Gauss: 1
     - _Samples: 0
-    - _StandardDeviation: 0.001
+    - _StandardDeviation: 0.0034
     m_Colors: []
   m_BuildTextureStacks: []
