@@ -17,6 +17,12 @@ public class MapManager : MonoBehaviour
     // 使用字典存储已放置的方块实例，键是虚拟坐标
     private Dictionary<Vector3Int, GameObject> blockInstances = new Dictionary<Vector3Int, GameObject>();
 
+    private Vector3 LightDirection => lightTransform.position - Vector3.zero;
+    [SerializeField]
+    private float lightIntensity = 1.0f; // 光照强度
+    [SerializeField]
+    private Transform lightTransform;
+
     // --- 核心功能 ---
 
     void Start()
@@ -214,6 +220,16 @@ public class MapManager : MonoBehaviour
             }
         }
         Debug.Log("Initial world generated.");
+    }
+    
+    public Vector3 GetLightDirection()
+    {
+        return LightDirection.normalized;
+    }
+    
+    public float GetLightIntensity()
+    {
+        return lightIntensity;
     }
 
     // public void LoadWorldData(string filename) { /* 从文件加载 blockInstances 数据 */ }

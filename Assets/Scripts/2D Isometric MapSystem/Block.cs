@@ -4,6 +4,8 @@ using UnityEngine;
 public class Block : MonoBehaviour
 {
     private static readonly int OutlineEnabled = Shader.PropertyToID("_Outline");
+    private static readonly int LightDirection = Shader.PropertyToID("_LightDirection");
+    private static readonly int LightIntensity = Shader.PropertyToID("_LightIntensity");
 
     [Tooltip("此方块在虚拟坐标系中的位置")]
     public Vector3Int virtualCoordinates;
@@ -33,6 +35,16 @@ public class Block : MonoBehaviour
         else
         {
             UpdateSortingOrder();
+        }
+    }
+    
+    void Update()
+    {
+        // 更新光照方向
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.material.SetVector(LightDirection, mapManager.GetLightDirection());
+            spriteRenderer.material.SetFloat(LightIntensity, mapManager.GetLightIntensity());
         }
     }
     
